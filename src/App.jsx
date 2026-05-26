@@ -8,25 +8,25 @@ function App() {
           {/* First Name + Last Name */}
           <div className="name-row">
             <div className="input-group">
-              <label>First Name </label>
+              <label>First Name<span>*</span></label>
               <input type="text" />
             </div>
 
             <div className="input-group">
-              <label>Last Name</label>
+              <label>Last Name<span>*</span></label>
               <input type="text" />
             </div>
           </div>
 
           {/* Email */}
           <div className="input-group">
-            <label>Email Address</label>
+            <label>Email Address<span>*</span></label>
             <input type="email" />
           </div>
 
           {/* Query Type */}
           <div className="input-group">
-            <label>Query Type</label>
+            <label>Query Type<span>*</span></label>
 
             <div className="query-row">
               <div className="query-box">
@@ -43,7 +43,7 @@ function App() {
 
           {/* Message */}
           <div className="input-group">
-            <label>Message</label>
+            <label>Message<span>*</span></label>
             <textarea></textarea>
           </div>
 
@@ -51,7 +51,7 @@ function App() {
           <div className="checkbox-group">
             <input type="checkbox" />
             <label>
-              I consent to being contacted by the team
+              I consent to being contacted by the team<span>*</span>
             </label>
           </div>
 

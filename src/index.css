@@ -27,8 +27,8 @@ body {
 }
 .card {
   background-color: var(--white);
-  width: 550px;
-  height: 600px;
+  width: min(850px, 650px);
+  /* height: 600px; */
   padding: 1.5rem;
   border-radius: 0.5rem;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
@@ -153,6 +153,12 @@ textarea {
   border-color: var(--green-600);
 
   cursor: pointer;
+}
+span {
+  color: var(--green-600);
+}
+label span {
+  margin-left: 8px;
 }
 @media (max-width: 768px) {
   .card {
